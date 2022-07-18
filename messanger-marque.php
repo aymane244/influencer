@@ -112,7 +112,7 @@
                         ?>
                         <div class="message" style="position:relative;">
                             <!-- <img src="<?php echo $rows['inf_image']?>" class="img-chat-receiver" alt="sdsq"> -->
-                            <div style="position:relative; margin-left:73%; margin-bottom:8px;"><b><?php echo $rows['inf_nom']?></b></div>
+                            <div style="position:relative; margin-left:73%; margin-bottom:8px;"><b><?php echo $rows['inf_prenom'].' '.$rows['inf_nom']?></b></div>
                             <div class="other_message"><?php echo $rows['msg_inf']?></div>
                             <div style="font-size:12px; color:grey; margin-top:5px; position:relative; margin-left:73%;"><?php echo date("H:i", strtotime($rows['msg_date']))?></div>
                         </div> 
@@ -134,7 +134,7 @@
                     <div class="div-margin">
                         <form action="" method="POST">
                             <div class="publisher bt-1 border-light" id="fixed">
-                                <input class="publisher-input" type="text" placeholder="Write something" name="message">  
+                                <input class="publisher-input" type="text" placeholder="Ecrivez votre message" name="message">  
                                 <button type ="submit" class="btn btn-primary publisher-btn" id="btn-send" name="envoyer">Envoyer</button>
                             </div>
                         </form>

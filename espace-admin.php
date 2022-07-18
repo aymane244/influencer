@@ -147,7 +147,7 @@
                                     <tr>
                                         <td>#</td>
                                         <td>Nom</td>
-                                        <td>Age</td>
+                                        <td>Site web</td>
                                         <td>email</td>
                                     </tr>
                                 </thead>
